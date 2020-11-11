@@ -1,0 +1,31 @@
+.section-two {
+  text-align: left;
+  margin: 100px auto;
+  display: flex vertical;
+  width: 800px;
+}
+
+.section-two h1 {
+  font-family: "Public Sans", sans-serif;
+}
+
+.section-two span {
+  background: #a2d5f2;
+}
+
+.tabs {
+  text-align: left;
+  margin: 100px auto;
+  width: 800px;
+}
+
+.carousel-container {
+  margin: 0 550px;
+}
+
+.footer {
+  background: #393e46;
+  color: #fff;
+  margin: 100px 0 0;
+  height: 30vh;
+}
