@@ -5,6 +5,12 @@
   width: 800px;
 }
 
+.highlights {
+  text-align: left;
+  margin: 30px auto;
+  width: 800px;
+}
+
 .section-two h1 {
   font-family: "Public Sans", sans-serif;
 }

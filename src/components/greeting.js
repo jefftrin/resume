@@ -12,7 +12,7 @@ function Greeting() {
         
                 
         <h1>Hi, I'm Jeff.</h1>
-        <div><p>An experienced Systems Administrator with a bit of Full-Stack Web Developer and AWS Solutions Architect Associate</p></div>
+        <div><p>An experienced Systems Administrator with a bit of Web Developer and AWS Solutions Architect</p></div>
         
     </div>
     )

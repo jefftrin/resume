@@ -2,9 +2,8 @@ import React from "react"
 import Navi from '../components/navbar'
 import Layout from '../components/layout'
 import Greeting from "../components/greeting"
-import Cards from "../components/cards"
 import '../components/index.css'
-import { Tab, Row, Col, Nav, Carousel } from 'react-bootstrap'
+import { Container, Tab, Row, Col, Nav, Carousel } from 'react-bootstrap'
 import Slide1 from '../components/slideone'
 import Slide2 from '../components/slidetwo'
 import Slide3 from '../components/slidethree'
@@ -15,6 +14,9 @@ import Sangart from '../components/tabstwo'
 import Everi from '../components/tabsthree'
 import Agilitec from '../components/tabsfour'
 import Contractor from '../components/tabsfive'
+import { FaServer, FaCloud, FaCode } from 'react-icons/fa'
+
+
 
 
 
@@ -28,7 +30,61 @@ export default function Home() {
 <Layout />
 
 <Greeting />
-<Cards />
+
+<div className="highlights">
+  <h1>Key Skills</h1>
+  <p>Core competencies, but not limited to the following:</p>
+</div>
+<Container className="highlights section-two">
+  <Row>
+    <Col><FaServer />&nbsp; Expert Systems Administrator
+    <hr></hr>
+    <ul>
+    <li>Windows Server Configuration, Maintenance, and Monitoring</li>
+    <li>VMware, Hyper-V</li>
+    <li>Fundamental Networking</li>
+    <li>Data Security and User Access Controls</li>
+    <li>Data Backup and Recovery</li>
+    <li>Active Directory and Group Policies</li>
+    <li>DNS, DHCP, and Other Essential Server Roles</li>
+    <li>Office 365, Exchange</li>
+    <li>SharePoint</li>
+    <li>Desktop Support</li>
+    </ul></Col>
+    <Col><FaCloud />&nbsp; Entry Level AWS Solutions
+    <hr></hr>
+    <ul>
+      <li>EC2 and Other Compute Solutions</li>
+      <li>S3 and Other Storage Solutions</li>
+      <li>Route53</li>
+      <li>CloudFront</li>
+      <li>Certificate Manager</li>
+      <li>Load Balancers</li>
+      <li>Machine Images</li>
+    </ul>
+    </Col>
+    <Col><FaCode />&nbsp; Entry Level Web Developer
+    <hr></hr>
+    <li>HTML5</li>
+    <li>CSS 3</li>
+    <li>JavaScript ES6, JQuery</li>
+    <li>Bootstrap</li>
+    <li>Bash command Line</li>
+    <li>Node,Expressjs, NPM</li>
+    <li>Gatsby, React</li>
+    <li>Visual Studio Code, Atom</li>
+    <li>Git and Github</li>
+    <li>Python, PyCharm</li>
+    <li>SQL, MongoDB</li>
+    <li>Security, Authentication</li>
+    <li>OAuth with Google and Facebook</li>
+    <li>API, RESTful API</li>
+
+    
+    </Col>
+  </Row>
+</Container>
+
 
 <div id="work-history" className="section-two">
   <h1><span>15 years</span> in the industry</h1>
